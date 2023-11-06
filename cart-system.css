@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+body{
+    background-color: rgb(241, 235, 145);
+}
+
+.holder{
+    width: 700px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.377);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar{
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.but{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+    display: flex;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px;
+    margin-right: 20px; */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.ad{
+    color: orangered;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-left: 
+    20px;
+}
+
+.items-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.item {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin-right: 5px;
+}
+
+.cancel-icon {
+    cursor: pointer;
+}
